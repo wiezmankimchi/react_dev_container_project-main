@@ -1,0 +1,30 @@
+{
+	"name": "Node.js",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:16-bullseye",
+	"postCreateCommand": "yarn install",
+	"remoteUser": "root",
+	"features": {},
+	"forwardPorts": [],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"2gua.rainbow-brackets",
+				"xabikos.ReactSnippets",
+				"aaronthomas.vscode-snazzy-operator",
+				"MaxfieldWalker.vscode-color-theme-spirited-away",
+				"vscode-icons-team.vscode-icons",
+				"formulahendry.auto-close-tag",
+				"dzannotti.vscode-babel-coloring",
+				"gerane.Theme-Bittersweet",
+				"dbaeumer.vscode-eslint",
+				"mquandalle.graphql",
+				"yzhang.markdown-all-in-one",
+				"christian-kohler.path-intellisense",
+				"esbenp.prettier-vscode",
+				"orsenkucher.vscode-graphql",
+				"styled-components.vscode-styled-components"
+			]
+		}
+	}
+
+}
